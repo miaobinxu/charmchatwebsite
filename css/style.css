@@ -14,7 +14,10 @@ body{
 
 a:focus, a:hover {
     color: #000;
-    text-decoration: underline;
+    text-decoration: none;
+}
+a {
+    color: #000;
 }
 /*2 SECTION  HEADER CSS START HEADER CSS START HEADER CSS START HEADER CSS START HEADER CSS START */
 
@@ -71,7 +74,7 @@ section#homepage {
     text-transform: uppercase;
 }
 .fully-homes {
-      padding: 10px 0px 6px 0px;
+      padding: 10px 0px 5px 0px;
 }
 .home-texts {
     text-align: center;
@@ -95,7 +98,7 @@ section#homepage {
     margin: 0 auto; /* Auto margins on the sides */
     text-align: center;
     border-radius: 0px;
-    width: 175px;
+    width: 173px;
     height: 61px; /* You need to define a height */
     border: 2px solid #bec1c5;
     color: black;
@@ -105,7 +108,7 @@ section#homepage {
     font-size: 20px;
     line-height: 24px;
     font-weight: 500;
-    padding: 0px 12px;
+    padding: 0px 17px;
     /* box-shadow: black 3px 3px 0px 0px; */
     text-transform: capitalize;
     font-family: "Ariel", sans-serif;
