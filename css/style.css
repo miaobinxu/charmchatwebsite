@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+      font-family: "Roboto Slab", serif;
+      padding: 0;
+	margin: 0;
+    opacity: 1;
+    z-index: 99;
+}
+
+/*2 SECTION  HEADER CSS START HEADER CSS START HEADER CSS START HEADER CSS START HEADER CSS START */
+
+section#homepage {
+       padding: 7% 0px;
+    height: 100vh;
+    opacity: 1;
+    z-index: 99;
+    display: block;
+    background: #1b2e35;
+}
+
+.fully-home {
+    text-align: center;
+}
+
+.fully-home img {
+    width: 150px;
+       height: 150px;
+           border: 0px dashed #787878;
+    border-radius: 20px 0px;
+}
+.page-contents {
+     margin: 0% 0px;
+    padding: 0% 0px;
+    border-radius: 0px;
+}
+.page-contents h3 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 1.1;
+    margin-top: 1px;
+    padding: 14px 14px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.fully-homes {
+      padding: 15px 0px 20px 0px;
+}
+.home-texts {
+    text-align: center;
+}
+.app-play {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.app-play img {
+    border: 1px solid white;
+    margin-bottom: 20px;
+    width: 164px;
+    height: 50px;
+}
+.home-details {
+    padding: 0px 15px;
+}
+.home-logins {
+/*    padding: 10px 15px 10px 16px;*/
+    text-align: center;
+    border-radius: 0px;
+}
+.browse-demos {
+    border: 2px solid #a2df72;
+    color: black;
+    background: #a2df72;
+    outline-offset: 10px;
+    border-radius: 4px;
+    font-size: 32px;
+    -webkit-transform: translate(0px, 0px);
+    box-shadow: black 3px 3px 0px 0px;
+    text-transform: capitalize;
+    font-family: "Roboto Slab", serif;
+    font-style: oblique;
+}
+.home-credential {
+    padding: 0px 15px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+}
+.fully-home :hover {transform: translateY(-10px);}
+
+.page-contents:hover {
+    transform: translateY(-10px);
+}
+/*2 SECTION FOOTER CSS START FOOTER CSS START FOOTER CSS START */
+
+/*@ MEDIA QUERY CSS START @ MEDIA QUERY CSS START @ MEDIA QUERY CSS START  */
+
+@media screen and (min-width: 320px) and (max-width:768px){
+.fully-home img {
+    width: 60%;
+    height: auto;
+}
+section#homepage {
+    padding: 20% 0px;
+}
+.app-play img {
+    margin-bottom: 22px;
+}
+}
+/*END*/
