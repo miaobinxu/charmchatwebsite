@@ -28,7 +28,6 @@ section#homepage {
     z-index: 99;
     display: block;
     box-shadow: 0px 2px 20px rgb(0 0 0 /100%);
-     border: 5px solid white;
      background-image: url(../img/background.png);
     background-color: #1b2e35;
 /*    background: #1b2e35;*/
