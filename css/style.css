@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap');
 
 *{
 	box-sizing: border-box;
 }
 
 body{
-      font-family: "Roboto Slab", serif;
+      font-family: "Poppins", sans-serif;
       padding: 0;
 	margin: 0;
     opacity: 1;
@@ -47,7 +47,7 @@ section#homepage {
     border-radius: 0px;
 }
 .page-contents h3 {
-    font-family: "Roboto Slab", serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 1.1;
@@ -59,7 +59,7 @@ section#homepage {
     text-transform: uppercase;
 }
 .home-texts h4 {
-    font-family: "Roboto Slab", serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 1.1;
@@ -105,7 +105,7 @@ section#homepage {
     padding: 0px 12px;
     /* box-shadow: black 3px 3px 0px 0px; */
     text-transform: capitalize;
-    font-family: "Roboto Slab", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     text-decoration: none !important;
     margin: 0px 34%;
@@ -122,7 +122,7 @@ section#homepage {
     padding: 6px 20px;
     /* box-shadow: black 3px 3px 0px 0px; */
     text-transform: capitalize;
-    font-family: "Roboto Slab", serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     text-decoration: none !important;
 }
