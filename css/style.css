@@ -92,8 +92,11 @@ section#homepage {
 }
 .home-logins {
 /*padding: 10px 15px 10px 16px;*/
+    margin: 0 auto; /* Auto margins on the sides */
     text-align: center;
     border-radius: 0px;
+    width: 175px;
+    height: 61px; /* You need to define a height */
     border: 2px solid #bec1c5;
     color: black;
     background: #ffffff;
@@ -108,7 +111,6 @@ section#homepage {
     font-family: "Ariel", sans-serif;
     font-style: normal;
     text-decoration: none !important;
-    margin: 0px 34%;
 }
 .browse-demos {
    border: 2px solid #bec1c5;
@@ -186,9 +188,6 @@ section#homepage {
 }
 .app-play img {
     margin-bottom: 22px;
-}
-.home-logins {
-    margin: 0px 24%;
 }
 }
 /*END*/
